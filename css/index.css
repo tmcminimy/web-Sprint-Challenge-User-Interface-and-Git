@@ -46,7 +46,39 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* CSS RESET END */
+/* HEADER AREA START */
+header {
+    display:flex;
+    justify-content:space-around;
+    margin:2%;
+}
+.topLinks {
+    display:flex;
+    align-content:center;
+    
+}
+.hatred {
+    margin-left:10%;
+    margin-right:10%;
+}
+.is {
+    margin-left:10%;
+    margin-right:10%;
+}
+.felt {
+    margin-left:10%;
+    margin-right:10%;
+}
+.for {
+    margin-left:10%;
+    margin-right:10%;
+}
+.this {
+    margin-left:10%;
+    margin-right:10%;
+}
+/* HEADER AREA END */
 * {
     box-sizing: border-box;
 }
@@ -94,7 +126,7 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
+/* BOXES SECTION START */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -104,14 +136,113 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1 {
+    background-color:teal;
+    width:12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    background-color:gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 {
+    background-color:cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4 {
+    background-color:coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5 {
+    background-color:crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6 {
+    background-color:forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7 {
+    background-color:darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8 {
+    background-color:hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9 {
+    background-color:indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10 {
+    background-color:dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* BOXES END */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +274,70 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* TOP ABOUT SECTION START */
+h3 {
+    margin-top:1%;
+}
+.aboutTop {
+    padding:0px 20px 20px 20px;
+    border-bottom:1px dotted black;
+    margin-bottom:3%;
+}
+/* TOP ABOUT SECTION END */
+/* CENTER ABOUT SECTION WITH 4 BOXES START */
+.habibi {
+    display:flex;
+    flex-wrap:wrap;
+    height:900px;
+}
+.habibi img {
+    max-width:500px;
+    height:auto;
+}
+.habibi p {
+    max-width:100%;
+}
+.aboutPlan {
+    display:flex;
+    flex-direction:column;
+    width: 40%;
+    height: 100px;
+    margin: 20px 2.5%;
+    border-bottom:1px dotted black;
+}
+.aboutWorking {
+    display:flex;
+    flex-direction:column;
+    width: 40%;
+    height: 100px;
+    margin: 20px 2.5%;
+    border-bottom:1px dotted black;
+}
+.aboutOffice {
+    display:flex;
+    flex-direction:column;
+    width: 40%;
+    height: 100px;
+    margin: 20px 2.5%;
+    border-bottom:1px dotted black;
+}
+.aboutMeeting {
+    flex-direction:column;
+    display:flex;
+    width: 40%;
+    height: 100px;
+    margin: 20px 2.5%;
+    border-bottom:1px dotted black;
+}
+.learnMore {
+    border:2px solid black;
+    text-align:center;
+    max-width:35%;
+    border-radius:10px;
+    padding:10px;
+}
+/* CENTER ABOUT SECTION WITH 4 BOXES END */
+.workTogether {
+    margin-bottom:2%;
 }
